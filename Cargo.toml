@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "client_libraries/file_monitor",
+    "server_libraries/add",
+    "server_libraries/divide",
+    "server_libraries/multiply",
+    "server_libraries/subtract",
+]
+
+[workspace.package]
+authors = ["Author Name <author@name.com>"]
+
+[workspace.dependencies]
+# dependencies to be inherited by all members; can be used as `dependency_name.workspace = true`
