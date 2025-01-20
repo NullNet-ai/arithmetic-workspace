@@ -1,5 +1,5 @@
 #[must_use]
-pub fn divide(left: u64, right: u64) -> u64 {
+pub fn divide(left: f32, right: f32) -> f32 {
     left / right
 }
 
@@ -9,7 +9,7 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = divide(8, 2);
-        assert_eq!(result, 4);
+        let result = divide(5.0, 2.0);
+        assert_eq!(result, 2.5);
     }
 }

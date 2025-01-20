@@ -1,5 +1,5 @@
 #[must_use]
-pub fn add(left: u64, right: u64) -> u64 {
+pub fn add(left: f32, right: f32) -> f32 {
     left + right
 }
 
@@ -9,7 +9,7 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+        let result = add(2.5, 2.1);
+        assert_eq!(result, 4.6);
     }
 }
