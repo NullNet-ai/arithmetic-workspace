@@ -3,5 +3,7 @@ This is the `arithmetic-workspace` module from our blog post: [A full-fledged Ru
 This repository contains a Rust workspace made of libraries to be shared across other components of the architecture.
 
 <div align="center">
-  <img src="./diagram.png" alt="Architecture diagram" width="60%"/>
+  <picture>
+    <img src="./diagram.png" alt="Architecture diagram" width="80%"/>
+  </picture>
 </div>
